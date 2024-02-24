@@ -72,6 +72,7 @@ if [[ "$START_CONFIRMATION" == "y" || "$START_CONFIRMATION" == "yes" || -z "$STA
   ./start_geth.sh $NETWORK_CHOICE
   echo "Done."
   echo ""
+  sleep 5
   echo "Starting beacon..."
   ./start_beacon.sh $NETWORK_CHOICE
   echo "Done."
