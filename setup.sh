@@ -11,7 +11,7 @@ fi
 if [ "$NETWORK_CHOICE" == "testnet" ]; then
   CHAIN="auroria"
 elif [ "$NETWORK_CHOICE" == "mainnet" ]; then
-  CHAIN="mainnet"
+  CHAIN="strax"
 fi
 
 read -p "Enter ETH address: " ETH_ADDRESS
